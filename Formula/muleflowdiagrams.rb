@@ -12,7 +12,7 @@ class Muleflowdiagrams < Formula
     depends_on :java => "1.8+"
   
     def install
-      bin.install Dir["*"]
+      libexec.install Dir["*"]
       bin.install_symlink "#{libexec}/bin/muleflowdiagrams"
     end
   
