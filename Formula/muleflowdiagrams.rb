@@ -1,7 +1,7 @@
 # Documentation: https://docs.brew.sh/Formula-Cookbook
 #                https://rubydoc.brew.sh/Formula
 # PLEASE REMOVE ALL GENERATED COMMENTS BEFORE SUBMITTING YOUR PULL REQUEST!
-class MuleFlowDiagrams < Formula
+class Muleflowdiagrams < Formula
     desc "Mule flow dependency graphs and diagrams"
     homepage "https://github.com/manikmagar/mule-flow-diagrams"
     url "https://github.com/manikmagar/mule-flow-diagrams/releases/download/v0.1.0/muleflowdiagrams-0.1.0.zip"
