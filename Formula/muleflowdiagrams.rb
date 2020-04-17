@@ -4,8 +4,8 @@
 class Muleflowdiagrams < Formula
     desc "Mule flow dependency graphs and diagrams"
     homepage "https://github.com/manikmagar/mule-flow-diagrams"
-    url "https://github.com/manikmagar/mule-flow-diagrams/releases/download/v0.1.0/muleflowdiagrams-0.1.0.zip"
-    sha256 "10a322d9b8f69b6a6b7082a3bb83f784496446b8d2cd25f8d7680d9ec3b3895a"
+    url "https://github.com/manikmagar/mule-flow-diagrams/releases/download/v0.2.0.1/muleflowdiagrams-0.2.0.1.zip"
+    sha256 "a702a8534499e905e187b0eacafcb12dd0087ce8055cb838ef3c757e8c181da5"
   
     bottle :unneeded
   
@@ -17,7 +17,7 @@ class Muleflowdiagrams < Formula
     end
   
     test do
-      system "#{bin}/muleflowdiagrams", "--version", "0.1.0"
+      system "#{bin}/muleflowdiagrams", "--version", "0.2.0.1"
     end
   end
   
