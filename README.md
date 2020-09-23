@@ -1,12 +1,12 @@
 # Manik Magar's Homebrew Tap
 
 ## Available formulae to install
-* muleflowdiagrams (Reference: [here](https://github.com/manikmagar/mule-flow-diagrams))
+* mulefd (Reference: [here](https://github.com/manikmagar/mulefd)) [ previously known as `muleflowdiagrams` ]
 
 ## How do I install these formulae?
 `brew install manikmagar/tap/<formula>`
 
-eg. `brew install manikmagar/tap/muleflowdiagrams`
+eg. `brew install manikmagar/tap/mulefd`
 
 Or `brew tap manikmagar/tap` and then `brew install <formula>`.
 

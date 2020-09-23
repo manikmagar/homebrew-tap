@@ -10,7 +10,9 @@ class Muleflowdiagrams < Formula
     bottle :unneeded
   
     depends_on :java => "1.8+"
-  
+    
+    deprecate! date: "2020-09-22", because: "It has been replaced by mulefd formula. Please uninstall this and install mulefd."
+
     def install
       libexec.install Dir["*"]
       bin.install_symlink "#{libexec}/bin/muleflowdiagrams"
