@@ -4,8 +4,8 @@
 class Mulefd < Formula
     desc "Mule flow dependency graphs and diagrams"
     homepage "https://github.com/manikmagar/mulefd"
-    url "https://github.com/manikmagar/mulefd/releases/download/v0.5.0/mulefd-0.5.0.zip"
-    sha256 "ace0c591d63b6eff2dc3a23b3f73b7387fb9a433af693b45d4fec73e6779861d"
+    url "https://github.com/manikmagar/mulefd/releases/download/v0.5.1/mulefd-0.5.1.zip"
+    sha256 "0b2f66821b8f6f8893ad5d12745475ae4e0f9014cf187a381766c80789c2162f"
   
     bottle :unneeded
   
@@ -17,7 +17,7 @@ class Mulefd < Formula
     end
   
     test do
-      system "#{bin}/mulefd", "--version", "0.5.0"
+      system "#{bin}/mulefd", "--version", "0.5.1"
     end
   end
   
