@@ -7,10 +7,6 @@ class Muleflowdiagrams < Formula
     url "https://github.com/manikmagar/mule-flow-diagrams/releases/download/v0.4.1/muleflowdiagrams-0.4.1.zip"
     sha256 "3899858dffdbde8b0e30481fdf763feea91a0ea23cdbf0ccb06b6760a06fc73c"
   
-    bottle :unneeded
-  
-    depends_on :java => "1.8+"
-    
     deprecate! date: "2020-09-22", because: "It has been replaced by mulefd formula. Please uninstall this and install mulefd."
 
     def install
