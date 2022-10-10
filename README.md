@@ -1,20 +1,48 @@
-# Manik Magar's Homebrew Tap
+# Homebrew
 
-## Available formulae to install
-* mulefd (Reference: [here](https://github.com/manikmagar/mulefd)) [ previously known as `muleflowdiagrams` ]
+## Formulae
+Invoke either of the following commands if the formula is hosted at GitHub
 
-## How do I install these formulae?
-`brew install manikmagar/tap/<formula>`
-
-eg. `brew install manikmagar/tap/mulefd`
-
-Or `brew tap manikmagar/tap` and then `brew install <formula>`.
-
-Or install via URL (which will not receive updates):
-
+```sh
+$ brew install manikmagar/tap/<formula>
 ```
-brew install https://raw.githubusercontent.com/manikmagar/homebrew-tap/master/Formula/<formula>.rb
+
+Or
+
+```sh
+$ brew tap manikmagar/tap
+$ brew install <formula>
 ```
+
+Invoke the following command if the formula is *not* hosted at GitHub
+
+```sh
+brew tap manikmagar/homebrew-tap 
+brew install <formula>
+```
+
+## Casks
+Invoke either of the following commands if the cask is hosted at GitHub
+
+```sh
+$ brew install --cask manikmagar/tap/<cask>
+```
+
+Or
+
+```sh
+$ brew tap manikmagar/tap
+$ brew install --cask <cask>
+```
+
+Invoke the following command if the cask is *not* hosted at GitHub
+
+```sh
+brew tap manikmagar/homebrew-tap 
+brew install --cask <formula>
+```
+
+If you get a dialog stating the cask is broken try installing with `--no-quarantine`.
 
 ## Documentation
 `brew help`, `man brew` or check [Homebrew's documentation](https://docs.brew.sh).
