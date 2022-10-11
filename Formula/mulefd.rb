@@ -1,10 +1,10 @@
-# Generated with JReleaser 1.2.0 at 2022-10-10T03:22:31.240718294Z
+# Generated with JReleaser 1.2.0 at 2022-10-11T00:23:54.376526383Z
 class Mulefd < Formula
   desc "Generate flow diagrams for Mule applications"
   homepage "https://javastreets.com"
-  url "https://github.com/manikmagar/mulefd/releases/download/v0.0.2/mulefd-0.0.2.zip"
-  version "0.0.2"
-  sha256 "b1b5685c0332aa5c841fe666007329024063d1b04bbeeef885d95e5173ed846a"
+  url "https://github.com/manikmagar/mulefd/releases/download/v0.8.2/mulefd-0.8.2.zip"
+  version "0.8.2"
+  sha256 "2e423df0eb3801c47b99c4ece2973546f40d184f802ea4cfc921efb241f5f5bf"
   license "MIT"
 
 
@@ -15,6 +15,6 @@ class Mulefd < Formula
 
   test do
     output = shell_output("#{bin}/mulefd --version")
-    assert_match "0.0.2", output
+    assert_match "0.8.2", output
   end
 end
